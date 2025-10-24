@@ -22,5 +22,5 @@ void loop() {
   Serial.printf(">light:%d\n", light);
 
   digitalWrite(PIN_LED, light >= 1500 ? HIGH : LOW);
-  delay(100);
+  delay(200);
 }
